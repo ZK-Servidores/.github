@@ -1,5 +1,4 @@
-# ZK Servidores™
-## Melhores Servidores da Comunidade BR
+# ZK Servidores™ | Melhores Servidores da Comunidade BR
 
 - [Site](https://zkservidores.com)
 - [Grupo Steam](https://steamcommunity.com/groups/zkservidores)
