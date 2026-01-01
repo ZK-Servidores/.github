@@ -37,7 +37,7 @@
 
 [![Website](https://img.shields.io/badge/-Website-000000?style=for-the-badge&logo=safari&logoColor=white)](https://zkservidores.com)
 [![Discord](https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/g7uTcEYVRR)
-[![Grupo Steam](https://img.shields.io/badge/-Steam-5865F2?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/groups/zkservidores)
+[![Grupo Steam](https://img.shields.io/badge/-Steam-00ADEE?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/groups/zkservidores)
 [![Twitter](https://img.shields.io/badge/-Twitter-00ACEE?style=for-the-badge&logo=x&logoColor=white)](https://x.com/zkservidores)
 [![Instagram](https://img.shields.io/badge/-Instagram-FF00FF?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/zkservidores)
 
