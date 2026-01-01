@@ -12,10 +12,10 @@
 <a href="https://github.com/crashzk"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" alt="GitHub"></a>
 </td>
 <td align="center">
-<img src="https://avatars.githubusercontent.com/crashzk" width="100" height="100" style="border-radius:50%"><br>
+<img src="https://avatars.githubusercontent.com/kubrv" width="100" height="100" style="border-radius:50%"><br>
 <h3>crashzk</h3>
 <br>
-<a href="https://github.com/crashzk"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" alt="GitHub"></a>
+<a href="https://github.com/kubrv"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" alt="GitHub"></a>
 </td>
 <td align="center">
 <img src="https://avatars.githubusercontent.com/crashzk" width="100" height="100" style="border-radius:50%"><br>
