@@ -28,22 +28,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: game-version
-    attributes:
-      label: Game / AppID and Version
-      description: Which game and version are you using?
-      placeholder: "e.g., CS:GO (730) version 1.38.2.5"
-    validations:
-      required: true
-
-  - type: input
-    id: metamod-version
-    attributes:
-      label: Metamod:Source Version
-      description: On which version of Metamod:Source did you first observe this?
-      placeholder: "e.g., 1.11.0-git1145"
-
   - type: checkboxes
     id: version-checks
     attributes:
