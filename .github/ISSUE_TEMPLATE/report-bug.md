@@ -10,7 +10,7 @@ assignees: ''
 ## **Descreva o BUG**
 Uma descrição clara e concisa do bug.
 
-##**Como reproduzir**
+## **Como reproduzir**
 Passos para reproduzir o comportamento:
 1. Vá para '...'
 2. Clique em '....'
