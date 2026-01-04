@@ -38,7 +38,7 @@ body:
       required: true
 
   - type: textarea
-    id: descrição
+    id: descricao
     attributes:
       label: Descrição
       description: Por favor, forneça uma descrição clara e concisa do bug.
@@ -47,7 +47,7 @@ body:
       required: true
 
   - type: textarea
-    id: reproduction
+    id: reproducao
     attributes:
       label: Como reproduzir
       description: Por favor, forneça os passos necessários para reproduzir o problema.
