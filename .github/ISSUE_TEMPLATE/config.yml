@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Precisando de ajuda rápida? Entre em contato pelo nosso Discord
+    url: https://discord.gg/g7uTcEYVRR
+    about: Para obter ajuda ou assistência geral, entre no Discord em vez de reportar um bug.

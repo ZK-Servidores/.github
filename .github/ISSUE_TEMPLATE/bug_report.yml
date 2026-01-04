@@ -1,6 +1,6 @@
-name: Bug Report
-description: Create a report to help us improve
-title: "[Bug]: "
+name: Report BUG
+description: Crie um relatório para nos ajudar a melhorar.
+title: "[BUG] "
 labels: ["Bug"]
 body:
   - type: markdown
@@ -20,61 +20,50 @@ body:
           required: true
 
   - type: input
-    id: os-version
+    id: swiftlys2-version
     attributes:
-      label: Operating System and Version
-      description: What operating system and version are you using?
-      placeholder: "e.g., Windows 10 21H2, Ubuntu 22.04"
+      label: Versão SwiftlyS2
+      description: Versão do SwiftlyS2 que esta usando?
+      placeholder: "E.x., v1.1.0"
     validations:
       required: true
 
-  - type: checkboxes
-    id: version-checks
-    attributes:
-      label: Version Verification
-      description: Please confirm you've tested with the latest versions
-      options:
-        - label: I have updated Metamod:Source to the [latest snapshot](https://sourcemm.net/downloads.php?branch=dev) and the issue persists
-
   - type: input
-    id: metamod-version-latest
+    id: metamod-version
     attributes:
-      label: Updated Metamod:Source Version
-      description: If you updated Metamod:Source to the latest version to confirm the issue persisted, which version was that?
-      placeholder: "e.g., 1.11.0-git1145"  
+      label: Versão Metamod:Source
+      description: Versão do Metamod que esta usando?
+      placeholder: "E.x., 2.0 - build 1375"
+    validations:
+      required: true
 
   - type: textarea
-    id: description
+    id: descrição
     attributes:
-      label: Description
-      description: Please provide a clear and concise description of the bug
-      placeholder: What happened? What did you expect to happen?
+      label: Descrição
+      description: Por favor, forneça uma descrição clara e concisa do bug.
+      placeholder: O que aconteceu? O que você esperava que acontecesse?
     validations:
       required: true
 
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to Reproduce
-      description: Please provide the code or steps needed to reproduce the issue
+      label: Como reproduzir
+      description: Por favor, forneça os passos necessários para reproduzir o problema.
       placeholder: |
-        *If possible, please include the smallest possible test-case to reproduce the issue.*
+        *Se possível, inclua no menor detalhe possível etapas para reproduzir o problema.*
 
-        *Also, please make it clear whether or not you can consistently reproduce this issue with the provided description*
+        *Além disso, por favor, deixe claro se você consegue reproduzir esse problema de forma consistente com a descrição fornecida.*
 
-        1. First step...
-        2. Second step...
+        1. Primeiro passo...
+        2. Segundo passo...
         3. ...
 
   - type: textarea
     id: logs
     attributes:
-      label: Relevant Log Output
+      label: Logs de erros
       description: |
-        Please provide any relevant log output. This will be automatically formatted into code, so no need for backticks.
-        Include:
-        - Game output
-        - Library logs
-        - Kernel logs
-        - Minidump or dump analyze output (in case of crashes)
+        Por favor, forneça qualquer saída de log relevante. Ela será formatada automaticamente em código, portanto, não é necessário usar crases.
       render: shell
