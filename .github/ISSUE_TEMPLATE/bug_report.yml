@@ -1,22 +1,22 @@
 name: Report BUG
 description: Crie um relatório para nos ajudar a melhorar.
 title: "[BUG] "
-labels: ["Bug"]
+labels: ["BUG"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! Please make sure you provide all the requested information to help us address the issue efficiently.
+        Obrigado por dedicar seu tempo para preencher este relatório de erro! Certifique-se de fornecer todas as informações solicitadas para nos ajudar a resolver o problema com eficiência.
 
   - type: checkboxes
-    id: prerequisites
+    id: prerequisitos
     attributes:
-      label: Prerequisites
-      description: Please confirm these before submitting your issue
+      label: Pré-requisitos
+      description: Por favor, confirme essas informações antes de enviar sua solicitação.
       options:
-        - label: I have checked that my issue doesn't exist yet in the [issue tracker](https://github.com/alliedmodders/metamod-source/issues)
+        - label: Verifiquei que meu problema ainda não existe no [Issues](https://github.com/ZK-Servidores/.github/issues)
           required: true
-        - label: I am running Metamod:Source with a dedicated server rather than a listen server
+        - label: Estou executando o Metamod:Source com um servidor dedicado em vez de um servidor de escuta.
           required: true
 
   - type: input
