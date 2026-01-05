@@ -60,6 +60,8 @@ body:
         2. Clique em '....'
         3. Role para baixo até '....'
         4. Veja o erro
+    validations:
+      required: true
 
   - type: textarea
     id: logs
@@ -72,15 +74,15 @@ body:
   - type: textarea
     id: metalista
     attributes:
-      label: Metalist
+      label: Lista de Plugins Metamod
       description: |
-        Copie e cole o resultado do `meta list` aqui.
+        Copie e cole o resultado do `meta list` do console do servidor aqui.
       render: shell
       
   - type: textarea
     id: swiftlys2-plugislist
     attributes:
-      label: List Plugins SwiftlyS2
+      label: Lista de Plugins SwiftlyS2
       description: |
-        Copie e cole o resultado do `sw plugins list` aqui.
+        Copie e cole o resultado do `sw plugins list` do console do servidor aqui.
       render: shell
