@@ -54,11 +54,12 @@ body:
       placeholder: |
         *Se possível, inclua no menor detalhe possível etapas para reproduzir o problema.*
 
-        *Além disso, por favor, deixe claro se você consegue reproduzir esse problema de forma consistente com a descrição fornecida.*
-
-        1. Primeiro passo...
-        2. Segundo passo...
-        3. ...
+        *Passos para reproduzir o comportamento:*
+        
+        1. Vá para '...'
+        2. Clique em '....'
+        3. Role para baixo até '....'
+        4. Veja o erro
 
   - type: textarea
     id: logs
@@ -66,4 +67,20 @@ body:
       label: Logs de erros
       description: |
         Por favor, forneça qualquer saída de log relevante. Ela será formatada automaticamente em código, portanto, não é necessário usar crases.
+      render: shell
+      
+  - type: textarea
+    id: metalista
+    attributes:
+      label: Metalist
+      description: |
+        Copie e cole o resultado do `meta list` aqui.
+      render: shell
+      
+  - type: textarea
+    id: swiftlys2-plugislist
+    attributes:
+      label: List Plugins SwiftlyS2
+      description: |
+        Copie e cole o resultado do `sw plugins list` aqui.
       render: shell
