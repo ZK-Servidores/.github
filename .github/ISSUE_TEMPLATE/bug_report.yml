@@ -14,7 +14,7 @@ body:
       label: Pré-requisitos
       description: Por favor, confirme essas informações antes de enviar sua solicitação.
       options:
-        - label: Verifiquei que meu problema ainda não existe no **[Issues]**(https://github.com/ZK-Servidores/.github/issues)
+        - label: Verifiquei que meu problema ainda não existe no [**Issues**](https://github.com/ZK-Servidores/.github/issues)
           required: true
 
   - type: input
