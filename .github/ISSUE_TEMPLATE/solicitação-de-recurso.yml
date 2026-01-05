@@ -1,0 +1,39 @@
+name: Solicitação de Recurso
+description: Crie um relatório para solicitar um recurso e melhorar a nossa comunidade.
+title: "[REQ] "
+labels: ["SUGGESTION"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por dedicar seu tempo para preencher este relatório de solicitação de recurso! Certifique-se de fornecer máximo de detalhes possível sobre o recurso que gostaria.
+
+  - type: checkboxes
+    id: prerequisitos
+    attributes:
+      label: Pré-requisitos
+      description: Por favor, confirme essas informações antes de enviar sua solicitação.
+      options:
+        - label: Verifiquei que minha solicitação de recurso ainda não existe no **[Issues](https://github.com/ZK-Servidores/.github/issues)**
+          required: true
+        - label: Verifiquei que minha solicitação de recurso ainda não é um **[Privilégio VIP](https://github.com/ZK-Servidores/.github/issues)**
+          required: true
+
+  - type: input
+    id: metamod-version
+    attributes:
+      label: Versão Metamod:Source
+      description: Versão do Metamod que esta usando?
+      placeholder: "E.x., 2.0 - build 1375"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: Por favor, forneça uma descrição clara e concisa da solicitação de recurso.
+      placeholder: O que você esperava que acontecesse?
+    validations:
+      required: true
+ 

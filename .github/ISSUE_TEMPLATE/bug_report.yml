@@ -1,5 +1,5 @@
-name: Report BUG
-description: Crie um relatório para nos ajudar a melhorar.
+name: Reportar BUG
+description: Crie um relatório de BUG para nos ajudar a corrigir e melhorar a nossa comunidade.
 title: "[BUG] "
 labels: ["BUG"]
 body:
@@ -14,9 +14,7 @@ body:
       label: Pré-requisitos
       description: Por favor, confirme essas informações antes de enviar sua solicitação.
       options:
-        - label: Verifiquei que meu problema ainda não existe no [Issues](https://github.com/ZK-Servidores/.github/issues)
-          required: true
-        - label: Estou executando o Metamod:Source com um servidor dedicado em vez de um servidor de escuta.
+        - label: Verifiquei que meu problema ainda não existe no **[Issues](https://github.com/ZK-Servidores/.github/issues)**
           required: true
 
   - type: input
@@ -50,7 +48,7 @@ body:
     id: reproducao
     attributes:
       label: Como reproduzir
-      description: Por favor, forneça os passos necessários para reproduzir o problema.
+      description: Por favor, forneça os passos necessários para reproduzir o bug.
       placeholder: |
         *Se possível, inclua no menor detalhe possível etapas para reproduzir o problema.*
 
@@ -60,6 +58,16 @@ body:
         2. Clique em '....'
         3. Role para baixo até '....'
         4. Veja o erro
+    validations:
+      required: true
+      
+  - type: textarea
+    id: prints-videos
+    attributes:
+      label: Prints & Vídeos
+      description: Por favor, forneça prints e vídeos referente ao bug.
+      placeholder: |
+        *Se possível, inclua as prints e vídeos direto no issues, evite links. - Podem ficar offline com o tempo!*
     validations:
       required: true
 
