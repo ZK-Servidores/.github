@@ -84,7 +84,7 @@ body:
     attributes:
       label: Lista de Plugins Metamod
       description: |
-        Copie e cole o resultado do `meta list` do console do servidor aqui.
+        Copie e cole o resultado do **`meta list`** do console do servidor aqui.
       render: shell
       
   - type: textarea
@@ -92,5 +92,5 @@ body:
     attributes:
       label: Lista de Plugins SwiftlyS2
       description: |
-        Copie e cole o resultado do `sw plugins list` do console do servidor aqui.
+        Copie e cole o resultado do **`sw plugins list`** do console do servidor aqui.
       render: shell
