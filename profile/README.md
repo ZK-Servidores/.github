@@ -43,3 +43,6 @@
 [![Instagram](https://img.shields.io/badge/-Instagram-FF00FF?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/zkservidores)
 
 </div>
+
+<!-- STEAM_AVATAR_START -->
+<!-- STEAM_AVATAR_END -->
