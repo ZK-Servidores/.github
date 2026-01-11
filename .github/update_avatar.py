@@ -1,7 +1,7 @@
 import requests
 import re
 
-STEAM_API_KEY = "SUA_CHAVE_AQUI" # Ou use segredos do GitHub
+STEAM_API_KEY = "STEAM_APIKEY" # Ou use segredos do GitHub
 STEAM_ID_64 = "76561198088290585"
 README_PATH = "/profile/README.md"
 
