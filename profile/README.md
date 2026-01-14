@@ -4,6 +4,7 @@
 
 <!-- STEAM_AVATAR_START -->
 https://steamcommunity.com/profiles/76561198088290585
+<img src="https://avatars.githubusercontent.com/crashzk" width="100" height="100" style="border-radius:50%"><br>
 <!-- STEAM_AVATAR_END -->
 
 <div align="center">
